@@ -51,11 +51,7 @@ export default {
     async mounted()  {
         const res = await this.$getMovieInfo({id: this.$route.params.id});
         this.movie = res;
-        console.log(this.$route);
     },
-    methods: {
-        
-    }
 };
 </script>
 
