@@ -40,7 +40,7 @@ module.exports = {
         new HtmlPlugin({ template: './src/index.html' }),
         new CopyPlugin({
             patterns: [{ from: 'static' }],
-          }),
+        }),
     ],
     devServer: {
         port: 8079,
